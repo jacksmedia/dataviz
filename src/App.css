@@ -9,12 +9,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 19s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(to top,  #282c34, red);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.mychart {
+  height: 100vh;
+  width: 80vw;
 }
 
 @keyframes App-logo-spin {
